@@ -10,6 +10,7 @@ import { HomeComponent } from './aljazira-header/home.component';
 import { AboutusComponent } from './aljazira-header/aboutus.component';
 
 import { routing } from './app.routing';
+import { AljaziraFooterComponent } from './aljazira-footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,8 @@ import { routing } from './app.routing';
     HomeComponent,
 
     AboutusComponent,
+
+    AljaziraFooterComponent,
 
   ],
   imports: [
