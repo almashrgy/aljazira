@@ -5,14 +5,28 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { AljaziraHeaderComponent } from './aljazira-header/aljazira-header.component';
+import { HomeComponent } from './aljazira-header/home.component';
+import { AboutusComponent } from './aljazira-header/aboutus.component';
+
+import { routing } from './app.routing';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
+    AljaziraHeaderComponent,
+
+    HomeComponent,
+
+    AboutusComponent,
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
